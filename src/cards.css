@@ -59,7 +59,6 @@ html {
   
     .cardGroup__card {
       /* flex-grow, flex-shrink, flex-basis */
-      flex-shrink: 1;
       border: none;
       border-radius: 0;
     }
@@ -90,5 +89,9 @@ html {
     margin: 0 auto;
     justify-content: space-evenly;
     display: flex;  
+  }
+  .card__description {
+    flex-grow: 1;
+    justify-content: space-evenly;
   }
  }
